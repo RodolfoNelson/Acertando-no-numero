@@ -1,4 +1,4 @@
-# Jogo de advinhar o número 
+# Jogo de adivinhar o número 
 
 ## Tecnologia utilizada
 
