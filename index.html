@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Stranger Number</title>
+      <link href="../Acertando no numero/css/style.css" rel="stylesheet">
+      <script src="../Acertando no numero/js/script.js" defer></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono:wght@200;300;400&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <a href="#">
+            <h1>Stranger Number</h1>
+         </a>
+      </header>
+      <main class="container" >
+         <form id="form">
+            <label for="kick">Digite um número (0 - 10):</label>
+            <input type="number" id="kick" max="10" placeholder="0">
+            <button type="submit">Jogar!</button>
+         </form>
+         <section class="result-box" id="result">
+            <h2 id="status">Adivinhe o número sorteado</h2>
+            <span id="attempt">Tentativas: 0</span>
+         </section>
+         <button id="btnRestart" onclick="restart()">Jogar de novo!</button>
+      </main>
+      <footer>
+         <p>&#10597; Da um Play para ficar mais interessante &#10597;</p>
+         <audio src="../Acertando no numero/audio/Stranger_Things_Theme.mp3" autoplay controls loop></audio>
+      </footer>
+   </body>
+</html>
